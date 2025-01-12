@@ -1,25 +1,47 @@
 .header  {
   font-family: monospace;
   background: papayawhip;
+  align-items: center;
 }
 
 .logo {
+  font-family: 'Courier New';
   font-size: 48px;
   font-weight: 900;
   color: tomato;
   background: white;
-  padding: 4px 32px;
+  padding: 4px 12px;
+  margin: 4px 12px;
+  justify-content: center;
 }
 
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
+  display: flex;
+  flex: auto;
+  justify-content: right;
+}
+
+.left-links ul {
+  justify-content: left;
+}
+
+li {
+  padding: 2px 16px;
+  margin: 2px 16px;
 }
 
 a {
   font-size: 22px;
+  font-family: 'Courier New';
   background: white;
   padding: 8px;
   /* this removes the line under the links */
   text-decoration: none;
+}
+
+div {
+  display: flex;
+  flex: auto;
 }
